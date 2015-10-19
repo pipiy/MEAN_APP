@@ -10,8 +10,7 @@ var users = require('./routes/users');
 
 //Connect to our local MongoDB
 var mongoose = require('mongoose');
-require('./models/Posts');
-require('./models/Comments');
+require('./models');
 
 mongoose.connect('mongodb://localhost/news');
 
